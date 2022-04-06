@@ -1,7 +1,6 @@
 import React, { Component } from 'react'
 
-export const DataContext =  React.Context();
-
+export const DataContext = React.createContext()
 
 
 export class DataProvider extends Component{
@@ -82,4 +81,3 @@ export class DataProvider extends Component{
     }
 }
 
-export default Context
